@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.vamk.fi/wp-content/themes/design-by-buorre-child-vamk/img/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Iiro Hautala</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Me</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+    <div class="logo">Iiro Hautala</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <ul>
+                <li><a href="index.html" onclick="toggleMenu()">Me</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic__container">
+            <img src="./assets/kuva_aboutsivu.PNG" alt="Profiili kuva">
+        </div>
+        <div class="section__text2">
+            <h1 class="title">Get to know me</h1>
+            <br>
+            <p>I am 23 years old student from Vaasa. I started school at Vaasa University of Applied Sciences on the bachelor's program for information Technology in August 2023.</p>
+            <br>
+            <p>My intrest in the field has only increased as i have gained more knowledge and skills from my school. My other intrests include gaming and sports, and if i were to highlight something about sports, i am huge football fan.</p>
+            
+        </div>
+    </section>
+    <div class="footer">
+        <small>Iiro Hautala &copy; 2023. All Rights Reserved.</small>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
